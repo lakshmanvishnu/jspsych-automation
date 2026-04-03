@@ -9,6 +9,7 @@
   "scripts": {
     "test": "jest",
     "test:watch": "npm test -- --watch",
+    "test:coverage": "jest --coverage --coverageReporters=lcov text",
     "build": "npm run build -ws",
     "update-unpkg-links": "gulp updateUnpkgLinks",
     "update-readme": "gulp updateReadme",
